@@ -1,0 +1,18 @@
+{
+  "name": "lxcar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "  ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "wnyzz",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.8",
+    "vue-resource": "^1.5.1"
+  }
+}

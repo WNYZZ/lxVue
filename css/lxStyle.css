@@ -1,0 +1,616 @@
+/*lxindex*/
+
+*,body{
+color: #333333;
+}
+.lxtop .container-fluid, .lxtop .container{
+    padding-right: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    padding-right: 0;
+}
+.navbar-default{
+    background: #FFFFFF;
+    border: none;
+}
+.navbar-nav{
+    float: right;
+    padding-top: 5px;
+}
+
+.navbar-nav li:hover ul.dropdown-menu{
+    display: block;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background: none;
+
+}
+.navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after{
+  position: absolute;
+    content: "";
+    height: 2px;
+    width: 44px;
+    background: #009cff;
+    bottom: -35px;
+    left: -10px;
+}
+.navbar-nav a{
+    font-size: 14px;
+    padding: 0!important;
+    margin-left: 40px;
+}
+.navbar{
+    padding: 26px 0 10px 0;
+    margin: 0;
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-nav > li > .dropdown-menu{
+    position: absolute;
+    margin-top: 34.5px;
+}
+.navbar-nav > li > .dropdown-menu:before{
+    position: absolute;
+    content: "";
+    height: 34.5px;
+    width: 100%;
+    top: -35px;
+    left: 0;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+    background: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover:after,.navbar-default .navbar-nav > li > a:focus:after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 74px;
+    background: #009cff;
+    bottom: -35px;
+    left: -10px;
+    color: #009cff!important;
+}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
+    color: #009cff!important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    min-width: 100%;
+}
+.dropdown-menu > li > a{
+    display: block;
+    margin: auto;
+    padding: 0 36px!important;
+
+}
+.dropdown-menu > li > a:hover{
+    background: none;
+    color: #009cff;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.lxindex{
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.lxindex .product{
+    margin-top: 100px;
+}
+
+
+.lxindex .product .span_title{
+    font-size: 20px;
+    color: #333333;
+}
+
+.product_a {
+    position: relative;
+    display: block;
+    transition: all .2s cubic-bezier(.1,.19,.1,.1);
+}
+
+.product_a:hover{
+    -webkit-box-shadow: 2px 2px 1px 1px #eeeeee;
+    -moz-box-shadow: 2px 2px 1px 1px  #eeeeee;
+    box-shadow: 2px 2px 1px 1px  #eeeeee;
+}
+
+.product_a .img_gup img{
+    width: 100%;
+}
+
+.product_a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #009cff;
+}
+
+
+.lxindex .product .span_entitle{
+    font-size: 20px;
+    color: #666666;
+}
+
+.div_hr{
+    position: relative;
+    margin: 14px auto 14px auto;
+    width: 234px;
+    height: 1px;
+    border-bottom: 1px solid #666666;
+}
+
+.div_hr:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 4px;
+    margin-left: -15px;
+    color: #009cff;
+    background-color: #009cff;
+
+}
+
+.dadeltd{
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+}
+
+.product .text_gup{
+    padding: 0 10%;
+}
+
+.product .text_gup .span_gup{
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.product .text_gup .span_en_gup{
+    display: inline-block;
+    font-size: 9px;
+    margin: 10px 0;
+    color: #666666;
+    width: 100%;
+}
+
+.product .text_gup .span_text_gup{
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+}
+/*--------------------------------------------------------------------------------------------------------------------/
+
+
+/*********************************************************************************************************************/
+.lxindex .honor{
+
+    height: 325px;
+    margin-top: 90px;
+    padding: 69px 0;
+    background: url("../images/honor_bg_18.jpg") repeat;
+}
+
+.lxindex .honor img{
+    display: inline-block;
+    margin: auto;
+}
+
+.lxindex .honor .text_gup .span_honor_title{
+    display: block;
+    font-size: 22px;
+    color: #ffffff;
+}
+.lxindex .honor .text_gup .span_honor_en_title{
+    display: block;
+    font-size: 9px;
+    color: #ffffff;
+    text-transform:uppercase;
+}
+/*--------------------------------------------------------------------------------------------------------------------/
+
+
+/*********************************************************************************************************************/
+.lxindex .major_message{
+    padding: 140px 0 0 0;
+}
+
+.major_message .title{
+    font-size: 20px;
+    display: block;
+}
+
+.major_message .en_title{
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+.major_message .hr{
+    width: 30px;
+    height: 4px;
+    color: #009cff;
+    background-color: #009cff;
+    margin: 16px 0;
+}
+
+.message{
+    font-size: 14px;
+    line-height: 32px;
+    color: #666666;
+}
+
+.major_message img{
+
+    margin-top: -80px;
+    min-width: 100%;
+}
+
+.major_message .message_four{
+
+    margin-top: 30px;
+
+}
+
+.major_message .message_four .message_four_item{
+    position: relative;
+    padding-left: 26px;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #666666;
+
+}
+
+.major_message .message_four .message_four_item:after{
+    position: absolute;
+    content: " ";
+    width: 6px;
+    height: 6px;
+    top: 50%;
+    margin-top: -2px;
+    left: 0;
+    background: url("../images/back_yuan.jpg") no-repeat;
+}
+/*--------------------------------------------------------------------------------------------------------------------/
+
+/*********************************************************************************************************************/
+.lxindex_about{
+    padding: 0;
+}
+
+.lxindex_about div{
+    padding: 0;
+}
+
+.lxindex_about .about_right{
+    padding: 100px 0 0 156px;
+    background: url("../images/about_right.jpg") no-repeat;
+}
+
+.lxindex_about .about_right .title{
+    font-size: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.lxindex_about .about_right .en_title{
+    font-size: 15px;
+    color: #FFFFFF;
+    display: block;
+    text-transform: uppercase;
+}
+
+.lxindex_about .about_right div[class=hr]{
+    width: 30px;
+    height: 4px;
+
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 16px 0;
+}
+
+.lxindex_about .about_right .dadeltd{
+    font-size: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.lxindex_about .about_right .text{
+    display: block;
+    max-width: 70%;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 32px;
+    margin-top: 40px;
+
+}
+
+.lxindex_about .about_right .more{
+    display: block;
+    text-align: center;
+    width: 165px;
+    height: 35px;
+    margin-top: 10%;
+    line-height: 35px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    transition: 1s all cubic-bezier(1,1,0.19,1);
+}
+.lxindex_about .about_right .more:hover{
+    background-color: #FFFFFF;
+    color: #009cff;
+}
+/*--------------------------------------------------------------------------------------------------------------------/
+
+/*********************************************************************************************************************/
+.lxindex_news{
+    margin-top: 115px;
+}
+
+.lxindex_news .span_title {
+    font-size: 20px;
+    color: #333333;
+}
+.lxindex_news .span_entitle {
+    font-size: 20px;
+    color: #666666;
+}
+
+.lxindex_list_news{
+
+}
+
+
+.lxindex_list_news .news_one{
+    position: relative;
+    display: block;
+    padding: 30px 0;
+}
+
+.lxindex_list_news .news_one:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #009cff;
+    clear: both;
+
+}
+
+.lxindex_list_news .news_one:after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border: 1px dotted  #666666;
+
+}
+
+.lxindex_list_news .title{
+    display: inline-block;
+    width: calc(100% - 82px);
+    font-size: 22px;
+
+}
+
+
+.lxindex_list_news .day{
+    display: inline-block;
+    width: 78px;
+    text-align: right;
+    font-size: 14px;
+    color: #666666;
+}
+.lxindex_list_news .text{
+    display: block;
+    font-size: 15px;
+    line-height: 32px;
+    margin-top: 34px;
+    color: #666666;
+}
+
+
+.lxindex_list_news .more{
+    display: block;
+    text-align: center;
+    margin-left: calc(100% - 165px);
+    width: 165px;
+    height: 35px;
+    margin-top: 30px;
+    line-height: 35px;
+    color: #c1c1c1;
+    border: 1px solid #aaaaaa;
+    cursor: pointer;
+    transition: 1s all cubic-bezier(1,1, 0.19,1);
+}
+.lxindex_list_news .more:hover{
+    border: 1px solid #009cff;
+    color: #FFFFFF;
+    background: #009cff;
+}
+.news_one div[class=col-md-5]{
+    padding-right: 0;
+}
+
+.news_list {
+    display: block;
+    width: 100%;
+    position:relative;
+    padding: 30px 0 ;
+}
+.news_list:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px dotted #666666;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------/
+
+/*********************************************************************************************************************/
+.indexl_concat{
+    margin-top: 130px;
+}
+
+
+.indexl_concat .span_title{
+    font-size: 20px;
+}
+.indexl_concat .span_en_title{
+    font-size: 20px;
+    color: #666666;
+}
+
+.concat_main{
+    width: 100%;
+    margin-top: 40px;
+    padding: 70px 0;
+    background-color: #f4f4f4;
+}
+
+.concat_main span{
+    display: block;
+}
+.concat_main .date_title{
+    font-size: 20px;
+}
+.concat_main .date_en_title{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #666666;
+    text-transform: uppercase;
+}
+.concat_main .concat_list{
+    position: relative;
+    font-size: 14px;
+    padding-left: 30px;
+    margin-bottom: 16px;
+}
+.concat_main .concat_list:nth-of-type(3):before{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 0;
+    background: url("../images/concat__19.png") no-repeat;
+}
+.concat_main .concat_list:nth-of-type(4):before{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 0;
+    background: url("../images/concat__25.png") no-repeat;
+}
+
+.concat_main .concat_list:nth-of-type(5):before{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 0;
+    background: url("../images/concat__28.png") no-repeat;
+}
+.concat_main .concat_list:nth-of-type(6):before{
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 0;
+    background: url("../images/concat__30.png") no-repeat;
+}
+
+
+.concat_main .erweima .weixin{
+    display: inline-block;
+    position: relative;
+}
+.concat_main .erweima .weibo{
+    display: inline-block;
+    position: relative;
+    margin-left: 60px;
+}
+.concat_main .erweima img{
+    position: absolute;
+    top: 26px;
+    left: 0;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------/
+
+/*********************************************************************************************************************/
+
+
+.lxfoot{
+    background: #002740;
+    padding: 60px 0;
+}
+
+.lxfoot span{
+    display: block;
+    color: #FFFFFF;
+}
+.lxfoot .lxfoot_left {
+    padding-right: 0;
+}
+.lxfoot span[class=title]{
+    margin-top: 24px;
+    line-height: 24px;
+
+}
+
+.lxfoot span:first-child{
+    margin-left: 0;
+}
+
+.lxfoot_right{
+    position: relative;
+    display: inline-block!important;
+    margin-left: 58px;
+
+}
+.lxfoot_right a{
+    color: #FFFFFF!important;
+}
+
+.lxfoot_right .two_node{
+    position: absolute;
+    width: 70px;
+    margin-top: 10px;
+    text-align: left;
+}
+.lxfoot_right .two_node a{
+    display: block;
+    margin-bottom: 6px;
+    color: #cccccc!important;
+}
